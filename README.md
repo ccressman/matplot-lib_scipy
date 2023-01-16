@@ -1,1 +1,13 @@
-# matplot-lib_scipy
+The purpose of this analysis is to compare the perfomance of a fictitious anti-cancer drug, Capomulin, developed by the fictitious pharmaceutical company, Pymaceuticals, Inc, with other anti-cancer drugs. The below analysis displays the results of a 45 day study that observed and measured squamous cell carcinoma (SCC) tumor size in 249 mice as they received treatment with a range of drug regimens. Specifically, Capomulin, Ceftamin, Infubinol, Naftisol, Propiva, Ramicane, Stelasyn, and Zoniferol. A placebo group was also included in the study.
+
+- The first step of this analysis was data cleaning, where duplicate data entries were removed. 
+
+- Summary statistics were then generated to present measures of central tendency, variance, standard deviation, and SEM of tumor volume for all test groups, including drug regimens and placebo. Ramicane presented the lowest figures while Ketapril presented the largest. 
+
+- Graphical representation of study characteristics were created. This includes bar charts presenting the distribution of mice across test groups, and pie charts illustrating the distribution of male vs. female mice within the study (not within each test group). The bar graph revealed a notably higher number of mice included within the Capomulin and Ramicane test groups as well as a notably lower number of mice included within the Propiva test group. The pie chart releaved a virtually even split between male and female mice within the study, 51% and 49% respectively. Distribution of male and female mice within each test group was not considered in this analysis. Capomulin, Ramicane, Infubinol, and Ceftamin
+
+
+- Next, a box plot was generated following the calculation of quartile ranges and outliers (using upper and lower bounds) for the following drug regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. These figures were generated using the final tumor volume of each mouse across the treatment regimens. The only drug regimen with data found to contain a potential outlier was Infubinol. Ramicane's center of distribution (median) was the lowest of the three distributions while Infubinol's was the highest. Capomulin had the most concentrated distribution (IQR of 7.7) and Ceftamin had the least concentrated distribution (IQR of 15).
+
+
+- Next a line plot was created capturing tumor volume over time for a mouse that received the Capomulin treatment. Only one mouse was considered for one treatment regimen. A scatter plot was also generated to illustrate the relationship between average tumor volume vs. mouse weight for the Capomulin test group. Using linear regression, a line of best fit was added to this scatter plot. The correlation coefficient was calculated to be 0.84, which illustrates a strong, positive correlation between the average tumor volume and mouse weight.
